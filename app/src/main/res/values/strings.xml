@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Kotlin_lv1_HW3</string>
+    <string name="base_url">https://api.giphy.com/</string>
+    <string name="url_trending">v1/gifs/trending</string>
+    <string name="api_key">94MNWFdpvW4BTFldUbDPqXFhI0eQwpCS</string>
+    <string name="load">load</string>
+    <string name="gif">Gif</string>
+    <string name="error">ERROR</string>
+    <string name="not_loading">Not loading</string>
+    <string name="loading">Loading</string>
+    <string name="retry">retry</string>
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="content">Content</string>
+    <string name="exercises">Exercises</string>
+    <string name="profile">Profile</string>
+    <string name="height">Height: </string>
+    <string name="bmi">BMI: </string>
+    <string name="weight">Weight: </string>
+    <string name="name">Name: </string>
+    <string name="avatar">avatar</string>
+    <string name="title">Title</string>
+    <string name="summary">Summary</string>
+    <string name="author">Author: John Smith</string>
+    <string name="categories">Categories:</string>
+    <string name="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam varius dui in consequat. Proin aliquet ullamcorper felis, at egestas leo sollicitudin sed. Vivamus faucibus sodales dui, ut tincidunt neque imperdiet id. Pellentesque vitae dui lacus. Ut non lorem sit amet magna tincidunt semper et ut urna. Sed libero quam, placerat sed velit eget, pulvinar tempor nibh. Phasellus iaculis urna sit amet eros molestie consectetur. Cras vulputate ultricies malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ipsum lacus, egestas eget elit ac, fringilla fringilla quam. Donec efficitur nulla cursus felis rhoncus congue. Integer tempus sodales nibh.
+
+Vestibulum sodales interdum mi. Sed et purus interdum, hendrerit odio quis, volutpat nulla. Vestibulum eleifend odio metus, ac condimentum lacus hendrerit quis. Nulla et lobortis sapien. Maecenas sit amet ultricies lacus. Maecenas ut nibh metus. Nam quis tempor neque, non varius augue. Nam dictum vehicula ipsum, at egestas dui elementum non. Morbi turpis risus, fermentum a purus porta, lobortis pellentesque mauris.
+
+Phasellus lacinia ultrices purus a tincidunt. Pellentesque nec maximus nunc, sit amet porttitor massa. Nulla facilisi. Suspendisse potenti. Integer egestas arcu sit amet magna pulvinar pulvinar. Suspendisse purus neque, aliquam et auctor non, pharetra vel turpis. Donec porttitor odio eu justo vestibulum, sit amet ullamcorper dui ultrices. Donec dictum urna ut tortor ultricies, eu hendrerit libero iaculis. Donec cursus, ipsum eu ullamcorper volutpat, enim odio consectetur nibh, eu suscipit lectus turpis sed risus. Pellentesque neque dui, ultrices et sapien varius, pretium bibendum eros. Nulla ullamcorper urna ac fermentum ultricies.
+
+Nunc tristique sapien purus, sed auctor mauris ultricies id. Suspendisse risus erat, commodo ac pellentesque eu, facilisis non justo. Nunc ac felis tincidunt, bibendum ipsum non, scelerisque est. Nulla vestibulum ligula semper dui semper, eget volutpat ante malesuada. Suspendisse dapibus, ipsum et condimentum accumsan, ligula mi consectetur sapien, quis consequat nisl ante eu leo. Morbi porta vel est ac tincidunt. Donec suscipit sapien magna, quis fringilla libero placerat at. Morbi faucibus luctus quam sed imperdiet. Vestibulum gravida, libero eu molestie volutpat, massa neque ornare ante, eu interdum velit felis vel nunc. Maecenas ut lobortis odio. In nunc ex, dapibus ut arcu vitae, ultrices porttitor arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+
+Aliquam pellentesque pellentesque arcu id commodo. Donec ultricies non metus ac consectetur. Morbi interdum nisi eget ullamcorper posuere. Aenean gravida tortor eu dolor congue hendrerit. Integer id tempus dui. Donec a ipsum ac lorem imperdiet iaculis et eget ligula. Aliquam egestas nulla eu metus egestas varius. Etiam faucibus, mauris a dictum hendrerit, tortor tellus sagittis lorem, eu aliquam dolor nisi quis sapien. Nunc facilisis nunc tellus, et malesuada libero tincidunt at. Sed dignissim libero sed ligula tristique fermentum. Quisque tellus odio, fringilla at aliquam finibus, sagittis ut est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sagittis ante a lectus mattis, egestas condimentum neque pulvinar. Nam turpis augue, condimentum et eleifend a, molestie vel erat.</string>
+    <string name="date">01.01.2007</string>
+    <string name="news_api">28ca92bc8c134234b5f3399eb1124513</string>
+
+</resources>
