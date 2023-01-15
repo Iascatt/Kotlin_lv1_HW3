@@ -40,6 +40,7 @@ class ProfileFragment : Fragment() {
         val weight = view.findViewById<TextView>(R.id.weight)
         val height = view.findViewById<TextView>(R.id.height)
         val bmi = view.findViewById<TextView>(R.id.bmi)
+        val bmi_char = view.findViewById<TextView>(R.id.bmi_char)
         val bar = view.findViewById<ProgressBar>(R.id.progressBar2)
         viewLifecycleOwner.lifecycleScope.launch {
             val profile = viewModel.getProfile()
@@ -47,10 +48,18 @@ class ProfileFragment : Fragment() {
             name.text = "Name: " + profile.name
             weight.text = "Weight: " + profile.weight.toString()
             height.text = "Height: " + profile.height.toString()
-            bmi.text = "BMI: " +
-                    (round(profile.weight / profile.height / profile.height * 100)
-                            / 100).toString()
+            val bmi_val = (round(profile.weight / profile.height / profile.height * 100)
+                    / 100)
+            bmi.text = "BMI: " + bmi_val.toString()
+
             bar.isVisible = false
+            bmi_char.text = when (round(bmi_val).toInt()) {
+                in 0..18 -> "Underweight"
+                in 19..25 -> "Normal"
+                in 26..30 -> "Overweight"
+                else -> "Obesity"
+            }
+
         }
     }
 
